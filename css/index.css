@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@700&display=swap');
+
+@media screen and (max-width:320px) {
+    
+}
+body{
+    max-height: auto;
+    max-width: 320px;
+    color: #043873;
+}
+#logo {
+    width: 134px;
+    height: 24px;
+}
+.nav {
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background-color: #043873;
+}
+
+.titulo {
+    position: relative;
+}
+
+#titulo1 {
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#txtbt1 {
+    color: #FFFFFF;
+}
+
+.buton {
+    width: 232px;
+    height: 70px;
+    background: #4F9CF9;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 31px;
+    margin-top: 58px;
+    position: relative;
+    ;
+}
+
+#titulo2 {
+    position: relative;
+    margin-top: 135px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.home {
+    height: 552px;
+    column-gap: 15px;
+    background-color: #043873;
+    display: flex;
+    flex-direction: column;
+}
+
+.home2 {
+    height: 817px;
+    display: flex;
+    flex-direction: column;
+}
+
+#tth1 {
+    width: 288px;
+    height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #212529;
+}
+
+#ph1 {
+    width: 288px;
+    height: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    align-self: stretch;
+    color: #212529;
+}
+
+#work {
+    position: relative;
+    margin-top: 60px;
+    width: 279px;
+    height: 259.74px;
+}
+
+.foter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    height: 210px;
+    background: #043873;
+}
+
+#txtfoter {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+@media screen and (max-width:768px){
+    
+}
